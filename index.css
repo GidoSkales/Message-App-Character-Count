@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+html {
+    text-rendering: optimizeLegibility;
+    font-family: 'Lato';
+}
+body {
+    box-sizing: border-box;
+    font-size: 1.1rem;
+}
+.main {
+    text-align: center;
+    padding: 2em;
+}
+.main textarea {
+    resize: none;
+    height: 400px;
+    width: 300px;
+    padding: 1em;
+}
+#warn {
+    display: none;
+}
