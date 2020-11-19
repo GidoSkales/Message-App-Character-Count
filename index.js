@@ -28,3 +28,8 @@ const calc = () => {
     });
 }
 calc();
+const toGGle = ()=> {
+    const darK = document.body;
+    darK.classList.toggle('dark');
+}
+toGGle();
